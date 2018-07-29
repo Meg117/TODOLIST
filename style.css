@@ -1,0 +1,216 @@
+.d2{
+background-color:lightgreen;
+color:whitesmoke;
+width:1200px;
+height:50px;
+
+}
+.d1{
+    background-color:rgb(180, 175, 175);
+    width: 1200px;
+    height:1000px;
+  
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .btn-lgreen {
+    color: #fff;
+    background-color:lightgreen;
+    border-color:lightgreen;
+  }
+  .btn-lgreen:hover {
+    color: #fff;
+    background-color:lightgreen;
+    border-color:lightgreen;
+      }
+  .btn-lgreen:focus, .btn-lgreen.focus {
+    box-shadow: 0 0 0 0.2rem rgb(111, 247, 111);
+  }
+  
+  .btn-lgreen.disabled, .btn-lgreen:disabled {
+    color: #fff;
+    background-color: rgb(105, 233, 105);
+    border-color: rgb(138, 240, 138);
+  }
+  
+  .btn-lgreen:not(:disabled):not(.disabled):active, .btn-lgreen:not(:disabled):not(.disabled).active,
+  .show > .btn-lgreen.dropdown-toggle {
+    color: #fff;
+    background-color:lightgreen;
+    border-color:lightgreen;
+  }
+  
+  .btn-lgreen:not(:disabled):not(.disabled):active:focus, .btn-lgreen:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-lgreen.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgb(111, 247, 111);
+  }
+  .btn-outline-lgreen:enabled:not(.disabled).active {
+    color: lightgreen;
+    background-color: transparent;
+    background-image: none;
+    border-color:lightgreen;
+  }
+  .btn-outline-lgreen:enabled:not(.disabled).active:hover {
+    color: #fff;
+    background-color:lightgreen;
+    border-color:lightgreen;
+        
+  }
+  
+  .btn-outline-lgreen:enabled:not(.disabled).active:enabled:not(.disabled).active:focus, .btn-outline-lgreen:enabled:not(.disabled).active:enabled:not(.disabled).active.focus {
+    box-shadow: 0 0 0 0.2rem rgb(111, 247, 111);
+  }
+  
+  .btn-outline-lgreen:enabled:not(.disabled).active:enabled:not(.disabled).active.disabled, .btn-outline-lgreen:enabled:not(.disabled).active:enabled:not(.disabled).active:disabled {
+    background-color:lightgreen;
+
+
+    background-color: transparent;
+  }
+  
+  .btn-outline-lgreen:enabled:not(.disabled).active:enabled:not(.disabled).active:not(:disabled):not(.disabled):active, .btn-outline-lgreen:enabled:not(.disabled).active:enabled:not(.disabled).active:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-lgreen:enabled:not(.disabled).active:enabled:not(.disabled).active.dropdown-toggle {
+    color: #fff;
+    background-color:lightgreen;
+    border-color:lightgreen;  
+  }
+  
+  .btn-outline-lgreen:enabled:not(.disabled).active:enabled:not(.disabled).active:not(:disabled):not(.disabled):active:focus, .btn-outline-lgreen:enabled:not(.disabled).active:enabled:not(.disabled).active:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-outline-lgreen:enabled:not(.disabled).active:enabled:not(.disabled).active.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgb(111, 247, 111);
+  }
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: lightgreen;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .form-control::-ms-expand {
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .form-control:focus {
+    color:lightgreen;
+    background-color: #fff;
+    border-color: lightgreen;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(111, 247, 111);
+  }
+  .form-control::placeholder {
+    color: lightgreen;
+    opacity: 1;
+  }
+  .form-control::-moz-placeholder {
+    color: lightgreen;
+    opacity: 1;
+  }
+  
+  .form-control:-ms-input-placeholder {
+    color:lightgreen;
+    opacity: 1;
+  }
+  
+  .form-control::-ms-input-placeholder {
+    color: lightgreen;
+    opacity: 1;
+  }
+  .form-control::-webkit-input-placeholder {
+    color: lightgreen;
+    opacity: 1;
+  }
+  .form-control:focus {
+    color: lightgreen;
+    background-color: #fff;
+    border-color:lightgreen;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(111, 247, 111)  ;
+  }
+  .center{
+    margin: auto;
+    width: 25%;
+    padding: 10px;}
+
+  .l1{
+      color:white;
+      background-color: lightgreen;
+      width:1200px;
+      height:50px;
+
+    }
+    .btn-block + .btn-block {
+      margin-top: 0.5px;
+    }
+    .list-group {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+    
+    .list-group-item-action {
+      width: 100%;
+      color: lightgreen;
+      text-align: inherit;
+      
+    }
+    
+    .list-group-item-action:hover, .list-group-item-action:focus {
+      color: white;
+      text-decoration: none;
+      background-color: rgb(180, 175, 175);
+    }
+    .list-group-item {
+      position: relative;
+      display: block;
+      padding: 0.85rem 1.75rem;
+      margin-left:15px;
+      margin-bottom: -1px;
+      background-color:rgb(180, 175, 175);
+      border: 10px double lightgreen;
+      color:white;
+      font-size:18pt;
+      
+    }
+    .list-group-item:first-child {
+      border-top-left-radius: 0.25rem;
+      border-top-right-radius: 0.25rem;
+    }
+    
+    .list-group-item:last-child {
+      margin-bottom: 0;
+      border-bottom-right-radius: 0.25rem;
+      border-bottom-left-radius: 0.25rem;
+    }
+    
+    .list-group-item:hover, .list-group-item:focus {
+      z-index: 1;
+      text-decoration: none;
+      color:white;
+      background-color: lightgreen;
+    }
+    
